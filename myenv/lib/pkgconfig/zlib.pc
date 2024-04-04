@@ -1,0 +1,13 @@
+prefix=/Users/meet/Documents/Celebrity-Search-Application/myenv
+exec_prefix=/Users/meet/Documents/Celebrity-Search-Application/myenv
+libdir=/Users/meet/Documents/Celebrity-Search-Application/myenv/lib
+sharedlibdir=/Users/meet/Documents/Celebrity-Search-Application/myenv/lib
+includedir=/Users/meet/Documents/Celebrity-Search-Application/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
